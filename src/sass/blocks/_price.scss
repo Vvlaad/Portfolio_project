@@ -16,6 +16,7 @@
         display: grid;
         grid-template-columns: repeat(2, 366px);
         grid-template-rows: repeat(3, minmax(45px, auto));
+        grid-auto-rows: minmax(45px, auto);
         justify-content: space-between;
         row-gap: 15px;
     }
