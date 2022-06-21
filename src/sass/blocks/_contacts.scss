@@ -9,6 +9,8 @@
     &__photo {
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     &__descr {
@@ -31,6 +33,9 @@
         img {
             max-width: 30px;
             max-height: 30px;
+        }
+        &:hover {
+            text-decoration: none;
         }
     }
     &__form {
@@ -82,7 +87,7 @@
             width: 100%;
             height: 100%;
             resize: none;
-            padding-left: 20px;
+            padding: 20px;
             font-size: 12px;
         }
     }
