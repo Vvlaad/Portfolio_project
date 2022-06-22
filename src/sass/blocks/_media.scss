@@ -178,7 +178,7 @@
             row-gap: 20px;
             justify-content: center;
             &-scale {
-                grid-template-columns: 300px;
+                grid-template-columns: 275px;
             }
         }
         &__item {
@@ -238,7 +238,7 @@
         }
     }
     .promo {
-        background: url('../img/main_b.jpg') no-repeat 57%/cover;
+        background: url('../img/main_bg.jpg') no-repeat 57%/cover;
         &__btns {
             margin-top: 30px;
         }
@@ -267,7 +267,7 @@
         &__wrapper {
             grid-template: 340px auto auto / 1fr;
             &-scale {
-                padding-left: 20px;
+                padding-left: 15px;
             }
         }   
     }
