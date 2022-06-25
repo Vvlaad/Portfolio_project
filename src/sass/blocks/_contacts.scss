@@ -97,4 +97,9 @@
         font-size: 14px;
         line-height: 21px;
     }
+    svg path {
+        &:hover {
+            fill: green;
+        }
+    }
 }
